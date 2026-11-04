@@ -71,4 +71,4 @@ GNU GPL v3. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 [uiextenderex]: https://www.nexusmods.com/mountandblade2bannerlord/mods/2102
 [mcm]: https://www.nexusmods.com/mountandblade2bannerlord/mods/612
 [cmt]: https://www.nexusmods.com/mountandblade2bannerlord/mods/14182
-[cte]: https://github.com/AtanuDebbarma/ClanTierExpanded
+[cte]: https://www.nexusmods.com/mountandblade2bannerlord/mods/14503
