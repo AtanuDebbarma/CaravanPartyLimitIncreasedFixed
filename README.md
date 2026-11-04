@@ -2,6 +2,8 @@
 
 A Mount & Blade II: Bannerlord mod that sets caravan party sizes (fixed or based on clan tier) in [Mod Configuration Menu (MCM)][mcm].
 
+**Download:** [Caravan Party Limit Increased Fixed on Nexus Mods][nexus]
+
 **Module id:** `CaravanPartyLimitIncreasedFixed`
 
 ## About this mod
@@ -66,6 +68,7 @@ build.cmd /p:DeployToGame=true
 
 GNU GPL v3. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
+[nexus]: https://www.nexusmods.com/mountandblade2bannerlord/mods/14505
 [harmony]: https://www.nexusmods.com/mountandblade2bannerlord/mods/2006
 [butterlib]: https://www.nexusmods.com/mountandblade2bannerlord/mods/2018
 [uiextenderex]: https://www.nexusmods.com/mountandblade2bannerlord/mods/2102
