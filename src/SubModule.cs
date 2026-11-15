@@ -8,7 +8,7 @@ using TaleWorlds.MountAndBlade;
 
 namespace CaravanPartyLimitIncreasedFixed
 {
-    // Caravan Party Limit Increased Fixed for Bannerlord 1.4.8.
+    // Caravan Party Limit Increased Fixed for Bannerlord 1.5.7.
     public class SubModule : MBSubModuleBase
     {
         private const string LogPrefix = "[Caravan Party Limit Increased Fixed] ";

@@ -73,7 +73,8 @@ namespace CaravanPartyLimitIncreasedFixed
 
         private static MethodInfo FindPartyMemberSizeLimit(Type type)
         {
-            Type[] args = new Type[] { typeof(PartyBase), typeof(bool) };
+            // Bannerlord 1.5.7+: GetPartyMemberSizeLimit(PartyBase, isCurrentlyAtSea, includeDescriptions).
+            Type[] args = new Type[] { typeof(PartyBase), typeof(bool), typeof(bool) };
             while (type != null && type != typeof(object))
             {
                 MethodInfo method = type.GetMethod(
@@ -90,7 +91,7 @@ namespace CaravanPartyLimitIncreasedFixed
             return null;
         }
 
-        private static void GetPartyMemberSizeLimitPostfix(PartyBase party, bool includeDescriptions, ref ExplainedNumber __result)
+        private static void GetPartyMemberSizeLimitPostfix(PartyBase party, bool isCurrentlyAtSea, bool includeDescriptions, ref ExplainedNumber __result)
         {
             Settings settings = Settings.Instance;
             if (settings == null || !settings.Enabled || party == null || !party.IsMobile)

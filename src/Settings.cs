@@ -4,7 +4,7 @@ using MCM.Abstractions.Base.Global;
 
 namespace CaravanPartyLimitIncreasedFixed
 {
-    // Options for Clan Tier based Caravan Party Size (Nexus 661) by Grant2600 — 1.4.8 local port.
+    // Options for Clan Tier based Caravan Party Size (Nexus 661) by Grant2600 — 1.5.7 local port.
     public sealed class Settings : AttributeGlobalSettings<Settings>
     {
         internal const string FixedLimitGroupMarker = "cpl_mcm_fixed_limit";

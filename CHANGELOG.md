@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+- Targets Bannerlord **1.5.7** / War Sails **1.3.7**.
+- Patches the three-parameter `GetPartyMemberSizeLimit(PartyBase, isCurrentlyAtSea, includeDescriptions)` party-size model used on 1.5.7 / War Sails.
+- Assembly informational version aligned with SubModule **v1.0.2**.
+
 ## 1.0.1
 
 - Same-kingdom caravan filter uses map faction / kingdom (not only `Hero.Clan`), so notable merchants of kingdom settlements are classified correctly.

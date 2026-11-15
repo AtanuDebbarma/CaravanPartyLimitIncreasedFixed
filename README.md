@@ -8,7 +8,7 @@ A Mount & Blade II: Bannerlord mod that sets caravan party sizes (fixed or based
 
 ## About this mod
 
-Inspired by **[Clan Tier based Caravan Party Size](https://www.nexusmods.com/mountandblade2bannerlord/mods/661)** (**CaravanPartyLimitIncreased**) by **[Grant2600](https://www.nexusmods.com/profile/Grant2600?gameId=3174)**. Credit for the idea only—this is a standalone mod for Bannerlord 1.4.8 with its own module id, namespaces, and MCM, not a continuation or rename of that original.
+Inspired by **[Clan Tier based Caravan Party Size](https://www.nexusmods.com/mountandblade2bannerlord/mods/661)** (**CaravanPartyLimitIncreased**) by **[Grant2600](https://www.nexusmods.com/profile/Grant2600?gameId=3174)**. Credit for the idea only—this is a standalone mod for Bannerlord 1.5.7 / War Sails 1.3.7 with its own module id, namespaces, and MCM, not a continuation or rename of that original.
 
 ### What this mod does differently
 
@@ -31,7 +31,7 @@ Inspired by **[Clan Tier based Caravan Party Size](https://www.nexusmods.com/mou
 
 **Options > Mod Options > Caravan Party Limit Increased Fixed**
 
-Choose who is affected, then fixed size or clan-tier formula. Same-kingdom includes notable caravans tied to your kingdom.
+Choose who is affected, then fixed size or clan-tier formula. Same-kingdom includes notable caravans tied to your kingdom. Changing size while a caravan already exists may not refresh its limit until its roster changes or you reload; that is Bannerlord caching, not a War Sails bug.
 
 ## Optional support
 
@@ -42,11 +42,11 @@ Choose who is affected, then fixed size or clan-tier formula. Same-kingdom inclu
 
 | Dependency | Tested |
 |---|---|
-| Mount & Blade II: Bannerlord | 1.4.8 |
-| War Sails (optional) | 1.2.x |
+| Mount & Blade II: Bannerlord | 1.5.7 |
+| War Sails (optional) | 1.3.7 |
 | [Harmony][harmony] | 2.4.2 |
 | [Mod Configuration Menu v5][mcm] | 5.13.1 |
-| Clan Tier Expanded (optional) | 1.0.x |
+| Clan Tier Expanded (optional) | 1.1.x |
 | Improved Garrisons (optional) | load after IG if you use it |
 
 MCM also needs [ButterLib][butterlib] and [UIExtenderEx][uiextenderex].
